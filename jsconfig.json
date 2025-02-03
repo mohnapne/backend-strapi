@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",           // ✅ Добавляем это
+    "moduleResolution": "NodeNext",
+    "target": "ES2021",
+    "checkJs": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules"]
+}

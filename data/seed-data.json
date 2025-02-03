@@ -1,0 +1,51 @@
+{
+  "categories": [
+    { "name": "Смартфоны", "slug": "smartphones" },
+    { "name": "Ноутбуки", "slug": "laptops" },
+    { "name": "Аксессуары", "slug": "accessories" }
+  ],
+  "products": [
+    {
+      "title": "iPhone 14 Pro",
+      "description": "Флагманский смартфон Apple с процессором A16 Bionic",
+      "price": 1299.99,
+      "stock": 10,
+      "category": 1,
+      "images": ["iphone14.jpg"]
+    },
+    {
+      "title": "MacBook Pro 16 M3",
+      "description": "Ноутбук Apple с мощным процессором M3",
+      "price": 2499.99,
+      "stock": 5,
+      "category": 2,
+      "images": ["macbook16.jpg"]
+    },
+    {
+      "title": "AirPods Pro",
+      "description": "Беспроводные наушники Apple с шумоподавлением",
+      "price": 249.99,
+      "stock": 15,
+      "category": 3,
+      "images": ["airpods.jpg"]
+    }
+  ],
+  "users": [
+    {
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin",
+      "phone": "+123456789",
+      "address": "Admin Street 1"
+    },
+    {
+      "username": "customer1",
+      "email": "customer1@example.com",
+      "password": "customer123",
+      "role": "customer",
+      "phone": "+987654321",
+      "address": "Customer Avenue 10"
+    }
+  ]
+}
